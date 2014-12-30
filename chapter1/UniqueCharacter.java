@@ -40,7 +40,7 @@ public class UniqueCharacter {
       System.out.println(isUnique(s));
     }
 
-    System.out.println("No Datastructure");
+    System.out.println("No Data structure");
     for(String s: test) {
       System.out.println(isUniqueNoDS(s));
     }
