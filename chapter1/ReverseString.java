@@ -24,6 +24,7 @@ public class ReverseString{
   public static void main(String[] args){
     String[] test = { "abcde", "djksafjlas", "seunghyun" };
     for(String s: test) {
+      System.out.println(s);
       System.out.println(reverse(s));
     }
   }
