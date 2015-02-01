@@ -4,7 +4,7 @@ import java.util.*;
  * 1-2
  * Implement a function which reverses a string.
  */
- 
+
 public class ReverseString{
 
   public static String reverse(String input) {

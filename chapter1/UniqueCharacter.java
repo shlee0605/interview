@@ -34,7 +34,7 @@ public class UniqueCharacter {
 
   public static void main(String[] args) {
     String[] test = { "hikld", "abcdef", "abcceds", "abceda" };
-    
+
     System.out.println("Using a data structure");
     for(String s: test) {
       System.out.println(isUnique(s));
