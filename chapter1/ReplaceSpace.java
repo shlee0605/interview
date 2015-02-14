@@ -13,7 +13,7 @@ public class ReplaceSpace {
   // using a string directly.
   public static String replace(String input) {
     char[] arr = input.toCharArray();
-    String result = ""; 
+    String result = "";
     for(int i = 0; i < arr.length; i ++) {
       if (arr[i] == ' ') {
         result += "%20";
@@ -43,7 +43,7 @@ public class ReplaceSpace {
         index -= 1;
       }
     }
-    return input;  
+    return input;
   }
 
   public static int countSpace(char[] input) {
@@ -62,7 +62,7 @@ public class ReplaceSpace {
       System.out.println(s);
       System.out.println(replace(s));
     }
-    
+
     for(String s: test) {
       int spaceNum = countSpace(s.toCharArray());
       char[] newArr = new char[s.length() + spaceNum * 2 + 1];
