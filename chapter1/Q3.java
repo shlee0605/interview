@@ -5,9 +5,9 @@ import java.util.*;
  * Given two strings, write a method to decide if one is a permutation of the other.
  */
 
-public class PermutationString {
+public class Q3 {
 
-  public boolean isPermutation(String first, String second) {
+  public static boolean isPermutation(String first, String second) {
     //create a map?
     Map<Character, Integer> firstMap = initializeMap(first);
     Map<Character, Integer> secondMap = initializeMap(second);
@@ -20,7 +20,7 @@ public class PermutationString {
     return true;
   }
 
-  public Map<Character, Integer> initializeMap(String str) {
+  public static Map<Character, Integer> initializeMap(String str) {
     HashMap<Character, Integer> map = new HashMap<Character, Integer>();
     for(int i =0; i < str.length(); i++) {
       char c = str.charAt(i);
@@ -35,6 +35,6 @@ public class PermutationString {
 
   public static void main (String[] args) {
     String[] input = {"abced","dbace"};
-    System.out.println(new PermutationString().isPermutation(input[0],input[1]));
+    System.out.println(isPermutation(input[0],input[1]));
   }
 }

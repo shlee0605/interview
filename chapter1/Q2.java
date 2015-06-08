@@ -5,7 +5,7 @@ import java.util.*;
  * Implement a function which reverses a string.
  */
 
-public class ReverseString{
+public class Q2 {
 
   public static String reverse(String input) {
     char[] arr = input.toCharArray();

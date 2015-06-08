@@ -9,7 +9,7 @@ import java.util.*;
  */
 
 
-public class ReplaceSpace {
+public class Q4 {
   // using a string directly.
   public static String replace(String input) {
     char[] arr = input.toCharArray();

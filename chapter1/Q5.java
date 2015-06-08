@@ -7,17 +7,17 @@ import java.util.*;
  * a2b1c5a3. If the "compressed" string would not become smaller than the
  * original string, your method should return the original string.
  */
- 
-public class CompressedString {
- 
+
+public class Q5 {
+
   public static void main (String[] args){
     String test = "aabcccccaaa";
     String test2 = "a";
-    new CompressedString().compress(test);
-    new CompressedString().compress(test2);
+    System.out.println(compress(test));
+    System.out.println(compress(test2));
   }
-  
-  public void compress(String compress) {
+
+  public static String compress(String compress) {
     char target = compress.charAt(0);
     int count = 1;
     String result = "";
@@ -35,6 +35,6 @@ public class CompressedString {
     if(result.length() >= compress.length()) {
       result = compress;
     }
-    System.out.println(result);
+    return result;
   }
 }

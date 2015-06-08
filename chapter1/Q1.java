@@ -6,7 +6,7 @@ import java.util.*;
  * What if you cannot use additional data structure?
  */
 
-public class UniqueCharacter {
+public class Q1 {
 
   public static boolean isUnique(String input) {
     Set<Character> characterSet = new HashSet<Character>();
