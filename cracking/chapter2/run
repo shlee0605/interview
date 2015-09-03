@@ -1,0 +1,5 @@
+#!/bin/bash
+javac $1
+name=`echo $1 | cut -d'.' -f 1`
+java $name
+rm $name".class"

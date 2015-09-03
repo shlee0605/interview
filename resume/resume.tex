@@ -1,0 +1,109 @@
+\documentclass[10pt,margin,line]{resume}
+\usepackage[colorlinks=true]{hyperref}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\hypersetup{urlcolor=black}
+
+
+\newcommand{\sectionsp}{\vspace{-5mm}}
+\setlength{\leftmargini}{0.15in}
+
+%______________________________________________________________________________________________________________________
+\begin{document}
+\name{\Large Seunghyun Lee}
+\begin{resume}
+
+%__________________________________________________________________________________________________________________
+% Contact Information
+\section{\mysidestyle Contact\\Information}
+mobile: 919 - 699 - 8095          		\vspace{0mm}\\\vspace{0mm}%
+e-mail: \href{mailto:seunghy1@cs.cmu.edu}{seunghy1@cs.cmu.edu}	\vspace{0mm}\\\vspace{-4.5mm}%
+
+%__________________________________________________________________________________________________________________
+% Education이동건
+\section{\mysidestyle Education}
+\textbf{Carnegie Mellon University, School of Computer Science}, Pittsburgh, PA \\\vspace{0mm}%
+\textsl{Master of Computational Data Science, Systems Major} \hfill \textbf{December 2016 (Expected)}
+\vspace{-3mm}\\\vspace{-1mm}%
+\begin{list3}
+    \item Course Highlights: Distributed Systems, Cloud Computing, Machine Learning, Storage Systems
+\end{list3}
+
+\textbf{Duke University}, Durham, NC \vspace{0mm}\\\vspace{0mm}%
+\textsl{Bachelor of Science in Computer Science, Minor in Mathematics}\hfill \textbf{May 2015}
+\vspace{-3mm}\\\vspace{-1mm}%
+\begin{list3}
+    \item GPA: 3.68/4.0
+    \item Awards: Dean's List for Spring 2010, Fall 2012, Fall 2013, Spring 2014
+    \item Course Highlights: Data-Intensive Computing Systems, Computer Networks, Operating Systems, Software Design \& Implementation, Data Structures, Algorithms, Computer Architecture
+\end{list3}
+
+%__________________________________________________________________________________________________________________
+% Research Projects
+\section{\mysidestyle Research\\Experience}
+\textbf{YARN Resource Management and Scheduling}\hfill \textbf{March 2015 -- May 2015} \vspace{0mm}\\\vspace{0mm}%
+\textsl{Advisor: Shivnath Babu, Duke University}
+\vspace{-3mm}\\\vspace{-1mm}%
+\begin{list3}
+    \item Implemented the framework for profiling scheduler's metrics information using YARN's REST API.
+    \item Set up two different scenarios (batch and interactive intensive) using MapReduce/Hive, and conducted experiments to optimize configurations for Capacity Scheduler.
+    \item Improved the performance of the base case by 20\%.
+\end{list3}
+
+\textbf{Connected Components on MapReduce}\hfill \textbf{May 2014 -- July 2014} \vspace{0mm}\\\vspace{0mm}%
+\textsl{Advisor: Kamesh Munagala, Duke University}
+\vspace{-3mm}\\\vspace{-1mm}%
+\begin{list3}
+    \item Implemented existing MapReduce algorithms for connected components such as Hash-Min, Hash-To-All, Hash-To-Min on top of Spark.
+    \item Conducted in-depth comparisons of algorithms by analyzing collected data such as the execution time, the number of iterations, and the size of intermediate data.
+\end{list3}
+
+
+%__________________________________________________________________________________________________________________
+% Work Experience
+\section{\mysidestyle Work\\Experience}
+
+\textbf{Frograms}, Seoul, Korea\hfill \textbf{September 2014 -- December 2014} \vspace{0mm}\\\vspace{0mm}%
+\textsl{Software Engineer Intern}
+\vspace{-3mm}\\\vspace{-1mm}%
+\begin{list3}
+    \item Designed and implemented a quiz and poll generating tool using Ruby on Rails and MySQL.
+    \item Designed and implemented a backend part of an analytics tool that visualizes the collected data for the effect of advertisement.
+\end{list3}
+
+\textbf{SAP Labs Korea}, Seoul, Korea\hfill \textbf{July 2013 -- August 2013} \vspace{0mm}\\\vspace{0mm}%
+\textsl{Software Engineer Intern}
+\vspace{-3mm}\\\vspace{-1mm}%
+\begin{list3}
+    \item Conducted a rigorous performance comparisons on Hadoop/Hive, Spark/Shark, and SAP HANA using TPC-H data set and its queries.
+    \item Deployed and managed a large cluster with two hundred cores and 2TB RAM.
+\end{list3}
+
+\textbf{Duke University}, Durham, NC\hfill \textbf{January 2013 -- May 2013} \vspace{0mm}\\\vspace{0mm}%
+\textsl{Undergraduate Teaching Assistant, Department of Computer Science}
+\begin{list3}
+    \item Teaching Assistant for Data Strucures and Algorithms course, Instructor : Tabitha Peck.
+    \item Conducted weekly office hours and graded programming assignments.
+\end{list3}
+
+%__________________________________________________________________________________________________________________
+% Course Projects
+\section{\mysidestyle Course\\Projects}
+\begin{list3}
+    \item \textbf{Malloc}: Implemented a dynamic storage allocator in C. Investigated and implemented various data structures(explicit list, segregated list) and algorithms(best fit, first fit) for optimizing performance.
+    \item \textbf{Proxy}: Implemented a web proxy that caches web objects. It also supports concurrent requests by multi-threading.
+	\item \textbf{SLogo}: Designed and implemented an interpreter of Logo Language in Java. Mostly worked on the back-end part that parses and builds the execution tree of the user input commands.
+    \item \textbf{Devil Shell}: Built a basic functional shell that supports job control, input/output redirection, error handling, and pipelines.
+    \item \textbf{DeFiler}: Implemented a simple multi-threaded file system in Java capable of storing and managing concurrent access to the multiple files.
+\end{list3}
+
+\vspace{1mm}%
+
+%__________________________________________________________________________________________________________________
+% Computer Skills
+\section{\mysidestyle Skills}
+    Java, C, Python, Ruby on Rails, Hadoop/Hive, Spark, SQL, HTML/CSS/JS, Git, \LaTeX\\
+
+%______________________________________________________________________________________________________________________
+\end{resume}
+\end{document}

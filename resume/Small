@@ -1,0 +1,59 @@
+Small
+Operations performed:  242160 Read, 161440 Write, 516538 Other = 920138 Total
+Read 3.6951Gb  Written 2.4634Gb  Total transferred 6.1584Gb  (21.021Mb/sec)
+ 1345.33 Requests/sec executed
+
+Test execution summary:
+    total time:                          300.0006s
+    total number of events:              403600
+    total time taken by event execution: 156.2506
+    per-request statistics:
+         min:                                  0.00ms
+         avg:                                  0.39ms
+         max:                                 23.55ms
+         approx.  95 percentile:               0.76ms
+
+Threads fairness:
+    events (avg/stddev):           403600.0000/0.00
+    execution time (avg/stddev):   156.2506/0.00
+
+Medium
+Operations performed:  256680 Read, 171120 Write, 547576 Other = 975376 Total
+Read 3.9166Gb  Written 2.6111Gb  Total transferred 6.5277Gb  (22.281Mb/sec)
+ 1426.00 Requests/sec executed
+
+Test execution summary:
+    total time:                          300.0007s
+    total number of events:              427800
+    total time taken by event execution: 153.3485
+    per-request statistics:
+         min:                                  0.00ms
+         avg:                                  0.36ms
+         max:                                 19.87ms
+         approx.  95 percentile:               0.79ms
+
+Threads fairness:
+    events (avg/stddev):           427800.0000/0.00
+    execution time (avg/stddev):   153.3485/0.00
+
+
+
+Large
+
+Operations performed:  261558 Read, 174372 Write, 557952 Other = 993882 Total
+Read 3.9911Gb  Written 2.6607Gb  Total transferred 6.6518Gb  (22.704Mb/sec)
+ 1453.09 Requests/sec executed
+
+Test execution summary:
+    total time:                          300.0025s
+    total number of events:              435930
+    total time taken by event execution: 165.3374
+    per-request statistics:
+         min:                                  0.00ms
+         avg:                                  0.38ms
+         max:                                 42.85ms
+         approx.  95 percentile:               1.07ms
+
+Threads fairness:
+    events (avg/stddev):           435930.0000/0.00
+    execution time (avg/stddev):   165.3374/0.00

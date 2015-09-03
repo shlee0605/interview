@@ -1,0 +1,41 @@
+\documentclass[11pt]{article}
+\usepackage[pdftex]{graphicx}
+\usepackage{fullpage, amsmath, amsthm, amssymb, fancyhdr}
+\usepackage{graphicx,amsmath,enumerate,wrapfig}
+\usepackage{cite}
+\usepackage{hyperref}
+\usepackage{wrapfig}
+\usepackage{subfigure}
+\usepackage{authblk}
+
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{float}
+
+\usepackage{setspace}
+
+
+\title {Statement of Purpose}
+\author{Seunghyun Lee}
+
+
+\begin{document}
+%\tableofcontents
+\maketitle
+
+  Precise analysis of data plays an essential role in every field in our modern world including government, business and academia. People in these fields collect and analyze large amounts of data continually, always seeking hidden patterns and valuable insights for the future. For instance, scientists in Genomics have analyzed an immense sequencing data to understand how our body works and their findings will open an era of personalized medicine in the very near future. However, processing these massive amounts of information is becoming a much bigger challenge as data today accumulates at an unprecedented rate. The ability to analyze huge amounts of data successfully and within a reasonable timeframe has now become one of the keys to successful ongoing competition and further advancement in society.\\
+
+  I first encountered the world of large-scale data processing, known as Data Intensive Computing, while I was interning at SAP Labs Korea. During that internship, I participated in a project that was seeking a way to incorporate the batch-processing framework, namely, Hadoop and Spark, with their own in-memory database called SAP Hana, which was suitable for real-time processing. I deployed a large cluster of 8 nodes with 200 cores and 1.5TB RAM. I conducted rigorous performance comparisons on these large data analytic systems using TPC-H datasets and its queries. I also monitored their CPU, Memory usages and I/O activities in order to see pros and cons for these systems. From this experience, I became enthralled by the knowledge that such a huge cluster with hundreds of processors could be precisely orchestrated so as to handle massive amounts of data simply by utilizing state- of- the art software. \\
+
+  After the internship, my prime interest became large-scale data processing. The topic fascinates me because it is the single domain of Computer Science that can have a massive impact on every field of endeavor worldwide. I also saw an enormous potential of this unprocessed data because it can bring us incredible, still unknown, insights and knowledge that can advance cultures and society worldwide. For all these reasons, I remained passionately involved in research projects during the rest of my undergraduate study. \\
+
+  Under the supervision of Professor Shivnath Babu, I participated in a research project called BigFrame for a semester. Traditional benchmarks such as TPC-DS and HiveBench are either micro ones or designed for very specific domains so that they are not suitable for capturing big variety of modern big data analytics. Instead, BigFrame can generate the benchmark tailored to a specific set of data and workload requirements. A prototype implementation is composed of a data generator and workflows. We took TPC-DS generator for relational data and made it parallel and also implemented kronecker graph and tweets data generator on Hadoop. For workloads, we used the Twitter sentiment analysis for text data, Twitter rank that is a page-rank style algorithm for graph data, and traditional relational queries for relational data. I contributed to implement twitter rank algorithm on different systems including Giraph and Spark Bagel. I also learned the details of the architectures and designs intended for target systems and how to set up and manage large clusters up to 100 nodes on Amazon EC2 cloud serviced. I conducted performance tests under various configurations to fine-tune each system. I then ran final experiments to study how modern big data systems perform under a complex workload that involves graphs, texts, and relational computing in different settings (e.g. scale-up, scale-out, speed-up tests). My work has contributed to a demonstration in VLDB’14.\\
+
+  Under Professor Shivnath Babu, I also participated in a project called Robus, which is a framework to optimize multi-tenant query workloads in an on-line manner using cache for speedup. I built a multi-tenant workload generator that simulates the real-world industry workloads. The workload generator uses a Poisson distribution to model the query arrival pattern. It picks the datasets from a given Zipfian distribution in order to model the situation where a small number of datasets are more popular than others while there is a long tail of datasets that are not very popular. Moreover, industry workloads show a high rate of re-access of data within a short duration of first access. The generator supports such scenario by picking a small window in time from a Normal distribution. As a result, this workload generator well simulates the real-work industry workloads. This generator was extensively used in experiments for this project and my work finally contributed to a submission to ACM SIGMOD 2015. \\
+
+  Further still, I participated in another research project with an algorithm group under Professor Kamesh Munagala during the summer 2014. The project seeks to develop a theoretical understanding of large-scale data processing models, mainly MapReduce, to design fast algorithms to handle graph optimization problems. Our group concentrated on the connected-components problem. My main contribution was implementing the existing connected-components algorithms on top of the MapReduce framework and running experiments to compare their performances. I also created a visualization of the algorithm, so the other investigators could better understand how an algorithm works at each stage.\\
+
+  These research experiences even enriched my passion towards Data Intensive Computing. They also attracted me to various other research problems. In my graduate study, I wish to continue to tackle interesting research problems such as data layout management, multi-tenancy requirements, and scheduling issues in Big Data systems. I am also open to try other new ideas or research problems as well.\\
+
+  For all these reasons, Computer Science department at Stanford University is especially attractive to me. I am looking for a university with an exceptional study environment, and extraordinary peers. Moreover, I wish to do my research at the forefront of Data Intensive Computing under the guidance of a world-class faculty. Stanford University fits all these categories perfectly. Through this graduate study at Stanford, I expect to move one step closer to my dream of being a distinctive expert who will contribute much to the future of Data Intensive Computing and its potentially immense benefits for society.
+\end{document}
